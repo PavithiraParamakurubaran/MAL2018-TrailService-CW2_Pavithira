@@ -66,7 +66,7 @@ TrailService/
 ### 1️⃣ Start SQL Server
 
 ```bash
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourPassword123" \
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=C0mp2001!" \
 -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
@@ -136,3 +136,4 @@ All endpoints return **JSON responses** and enforce data integrity using **Pydan
 ## License
 
 This project is for **academic purposes only** and is **not intended for commercial use**
+
